@@ -1,5 +1,7 @@
-# aws_s3
-uplaod data to s3, itrigger lambda function, process the csv, and insert data to dynamoDB
+# LOG/RAW DATA -> S3 -> LAMBDA FUNCTION -> DYNAMODB
+Upload data to s3, trigger lambda function, process the csv, and insert data to dynamoDB
+Architecture diagram:
+![Screenshot (9)](https://github.com/arnav-snowleo/aws_s3/assets/68443456/ef95c278-b50f-4989-982d-deceb2473a59)
 
 Upload CSV file to tS3 bucket:
 ![Screenshot (8)](https://github.com/arnav-snowleo/aws_s3/assets/68443456/2e844507-6035-4e73-b578-3665a64556f3)
